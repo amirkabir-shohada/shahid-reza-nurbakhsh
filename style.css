@@ -1,0 +1,129 @@
+@import url('htttps://fonts.googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: fedra;
+    src: url(fedra\ arabic.ttf);
+}
+main{
+    margin: auto;
+    margin-bottom: 1rem;
+    border: solid #222831;
+    border-radius: 25px;
+    width: 90%;
+}
+img{
+    width: 400px;
+    height: 500px;
+}
+.navbar{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.25rem;
+    background-color: #00ADB5;
+    color: #222831;
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    position: sticky;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 720px;
+    font-style: normal;
+    font-family: fedra;
+    color: #222831;
+    font-size: 26pt;
+}
+
+.main-name{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 44pt;
+    line-height: 1.2;
+}
+.card-img{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    background-color: #393E46;
+    padding: 3rem;
+    border-radius: 15px;
+}
+.text-img{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #393E46;
+    padding: 3rem;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 15px;
+}
+@media screen and (max-width: 950px){
+    .logo{
+        gap: 450px;
+    }
+    .main-name{
+        font-size: 32pt;
+    }
+}
+@media screen and (max-width: 850px){
+    .logo{
+        gap: 350px;
+    }
+    .main-name{
+        margin: auto;
+        font-size: 20pt;
+    }
+    .card-img{
+        width: 70%;
+    }
+    .text-img{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 750px){
+    .logo{
+        gap: 200px;
+    }
+    .card-img{
+        width: 75%;
+    }
+    .text-img{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 750px){
+    img{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 550px){
+    .logo{
+        font-size: 14pt;
+    }
+    img{
+        width: 200px;
+        height: 300px;
+    }
+    .main-name{
+        font-size: 12pt;
+    }
+}
